@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    margin: 0;
+}
+.tarja {
+    background-color: #11799E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 270px;
+    height: 40px;
+    transform: rotate(-45deg);
+    top: 40px;
+    left: -62px;
+    box-shadow: 0px 0px 5px #BCBDD1;
+}
+.tarja a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 8px;
+    box-shadow: 0px 0px 4px #BCBDD1;
+}
